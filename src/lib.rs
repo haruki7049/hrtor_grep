@@ -1,6 +1,6 @@
 use hrtor::processor::HrtorProcessor;
 
-pub fn run(_processor: HrtorProcessor, str: String, target: &str) -> anyhow::Result<String> {
+pub fn run(_processor: &mut HrtorProcessor, str: String, target: &str) -> anyhow::Result<String> {
     let mut result: String = String::new();
     let sep_str: Vec<&str> = str.split('\n').collect(); // Separated String at '\n'
 

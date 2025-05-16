@@ -11,3 +11,4 @@ repository = "https://github.com/haruki7049/hrtor_grep"
 
 [dependencies]
 anyhow = { version = "1.0.98", features = ["backtrace"] }
+hrtor = { git = "https://github.com/haruki7049/hrtor", version = "0.3.0-dev" }
